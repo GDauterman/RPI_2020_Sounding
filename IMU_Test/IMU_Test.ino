@@ -6,6 +6,8 @@ Adafruit_LSM303_Accel_Unified accel = Adafruit_LSM303_Accel_Unified(0);
 
 double X = 0, Y = 0, Z = 0;
 
+double pitch, roll;
+
 int i = 0;
 
 void setup() {
